@@ -1,15 +1,17 @@
 {
-  "name": "@example/basics",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "webcontainers-api-starter",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
   },
   "dependencies": {
-    "astro": "^5.2.3"
+    "@webcontainer/api": "^1.1.3"
   }
 }
